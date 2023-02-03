@@ -9,12 +9,13 @@ import UIKit
 
 class RootViewController: UIViewController {
     let db = Database.shared
-    let expense = Expense(value: 2503.0, description: "", insertDate: Date())
+    let expense = Expense(value: 9, description: "", insertDate: Date())
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .blue
         db.expenseTable.add(entry: expense)
+        db.expenseTable.update(entry: expense)
     }
 
 

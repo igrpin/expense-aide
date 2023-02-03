@@ -44,7 +44,16 @@ final class ExpenseTable {
     }
     
     func update(entry: Expense) {
-        
+        do {
+            let query = expense.filter(id == entry.id)
+            if try db.run(query.update(self.value <- entry.value, self.description <- entry.description, self.insertDate <- Date())) > 0 {
+                print("Expense #\(entry.id) updated")
+            } else {
+                print("Expense #\(entry.id) not found")
+            }
+        } catch {
+            print(error.localizedDescription)
+        }
     }
     
     func delete(entry: Expense) {
