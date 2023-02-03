@@ -1,0 +1,6 @@
+framework module Pods_expense_aideTests {
+  umbrella header "Pods-expense-aideTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

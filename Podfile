@@ -7,4 +7,9 @@ target 'expense-aide' do
 
   # Pods for expense-aide
 	pod 'SQLite.swift', '~> 0.14.1'
+	
+	target 'expense-aideTests' do
+		inherit! :search_paths
+	end
+
 end

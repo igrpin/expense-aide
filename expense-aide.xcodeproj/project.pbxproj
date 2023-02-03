@@ -8,27 +8,58 @@
 
 /* Begin PBXBuildFile section */
 		0F320240D6AF48356AE9E8A4 /* Pods_expense_aide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 448FF2A32325F40FE3FBC16A /* Pods_expense_aide.framework */; };
+		14272F36298D2A4300B47EB5 /* expense_aideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14272F35298D2A4300B47EB5 /* expense_aideTests.swift */; };
+		14272F3F298D320C00B47EB5 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14272F3E298D320C00B47EB5 /* RootView.swift */; };
+		14272F42298D323F00B47EB5 /* ExpenseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14272F41298D323F00B47EB5 /* ExpenseModel.swift */; };
+		14272F45298D52B000B47EB5 /* ExpenseTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14272F44298D52B000B47EB5 /* ExpenseTable.swift */; };
 		14778D6D29895C2600465991 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14778D6C29895C2600465991 /* AppDelegate.swift */; };
 		14778D6F29895C2600465991 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14778D6E29895C2600465991 /* SceneDelegate.swift */; };
-		14778D7129895C2600465991 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14778D7029895C2600465991 /* ViewController.swift */; };
+		14778D7129895C2600465991 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14778D7029895C2600465991 /* RootViewController.swift */; };
 		14778D7629895C2A00465991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14778D7529895C2A00465991 /* Assets.xcassets */; };
-		14C2265D2989F1DC00248EAC /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C2265C2989F1DC00248EAC /* DBHelper.swift */; };
+		14C2265D2989F1DC00248EAC /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C2265C2989F1DC00248EAC /* DBManager.swift */; };
+		5DF555F5B40A9614218BA791 /* Pods_expense_aideTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1536DC9FAD15165C1245CE0C /* Pods_expense_aideTests.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		14272F37298D2A4300B47EB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14778D6129895C2600465991 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14778D6829895C2600465991;
+			remoteInfo = "expense-aide";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		14272F33298D2A4200B47EB5 /* expense-aideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "expense-aideTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14272F35298D2A4300B47EB5 /* expense_aideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = expense_aideTests.swift; sourceTree = "<group>"; };
+		14272F3E298D320C00B47EB5 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		14272F41298D323F00B47EB5 /* ExpenseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseModel.swift; sourceTree = "<group>"; };
+		14272F44298D52B000B47EB5 /* ExpenseTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTable.swift; sourceTree = "<group>"; };
 		14778D6929895C2600465991 /* expense-aide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "expense-aide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14778D6C29895C2600465991 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14778D6E29895C2600465991 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		14778D7029895C2600465991 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14778D7029895C2600465991 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		14778D7529895C2A00465991 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14778D7A29895C2A00465991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		14C2265C2989F1DC00248EAC /* DBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
+		14C2265C2989F1DC00248EAC /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		1536DC9FAD15165C1245CE0C /* Pods_expense_aideTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_expense_aideTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		448FF2A32325F40FE3FBC16A /* Pods_expense_aide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_expense_aide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C7C11DB3F4D8237E09842D /* Pods-expense-aideTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-expense-aideTests.debug.xcconfig"; path = "Target Support Files/Pods-expense-aideTests/Pods-expense-aideTests.debug.xcconfig"; sourceTree = "<group>"; };
 		94075481A9D50A954A7BDD82 /* Pods-expense-aide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-expense-aide.release.xcconfig"; path = "Target Support Files/Pods-expense-aide/Pods-expense-aide.release.xcconfig"; sourceTree = "<group>"; };
+		B909795643619122B900B35D /* Pods-expense-aideTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-expense-aideTests.release.xcconfig"; path = "Target Support Files/Pods-expense-aideTests/Pods-expense-aideTests.release.xcconfig"; sourceTree = "<group>"; };
 		F188B4B383647EC568F6F634 /* Pods-expense-aide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-expense-aide.debug.xcconfig"; path = "Target Support Files/Pods-expense-aide/Pods-expense-aide.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		14272F30298D2A4200B47EB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF555F5B40A9614218BA791 /* Pods_expense_aideTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		14778D6629895C2600465991 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -45,14 +76,59 @@
 			children = (
 				F188B4B383647EC568F6F634 /* Pods-expense-aide.debug.xcconfig */,
 				94075481A9D50A954A7BDD82 /* Pods-expense-aide.release.xcconfig */,
+				45C7C11DB3F4D8237E09842D /* Pods-expense-aideTests.debug.xcconfig */,
+				B909795643619122B900B35D /* Pods-expense-aideTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		14272F34298D2A4300B47EB5 /* expense-aideTests */ = {
+			isa = PBXGroup;
+			children = (
+				14272F35298D2A4300B47EB5 /* expense_aideTests.swift */,
+			);
+			path = "expense-aideTests";
+			sourceTree = "<group>";
+		};
+		14272F3C298D31CA00B47EB5 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				14272F43298D324500B47EB5 /* Model */,
+				14272F40298D321500B47EB5 /* View */,
+				14272F3D298D31ED00B47EB5 /* Controller */,
+			);
+			path = RootViewController;
+			sourceTree = "<group>";
+		};
+		14272F3D298D31ED00B47EB5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				14778D7029895C2600465991 /* RootViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		14272F40298D321500B47EB5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				14272F3E298D320C00B47EB5 /* RootView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		14272F43298D324500B47EB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14272F41298D323F00B47EB5 /* ExpenseModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		14778D6029895C2600465991 = {
 			isa = PBXGroup;
 			children = (
 				14778D6B29895C2600465991 /* expense-aide */,
+				14272F34298D2A4300B47EB5 /* expense-aideTests */,
 				14778D6A29895C2600465991 /* Products */,
 				11CD1F28867B1BB6EC86233C /* Pods */,
 				D451D4C2B47F3DF6F0B8156B /* Frameworks */,
@@ -63,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				14778D6929895C2600465991 /* expense-aide.app */,
+				14272F33298D2A4200B47EB5 /* expense-aideTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,7 +149,7 @@
 			children = (
 				14778D6C29895C2600465991 /* AppDelegate.swift */,
 				14778D6E29895C2600465991 /* SceneDelegate.swift */,
-				14778D7029895C2600465991 /* ViewController.swift */,
+				14272F3C298D31CA00B47EB5 /* RootViewController */,
 				14778D7529895C2A00465991 /* Assets.xcassets */,
 				14778D7A29895C2A00465991 /* Info.plist */,
 				14C2265E2989F1E600248EAC /* Database */,
@@ -83,7 +160,8 @@
 		14C2265E2989F1E600248EAC /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				14C2265C2989F1DC00248EAC /* DBHelper.swift */,
+				14C2265C2989F1DC00248EAC /* DBManager.swift */,
+				14272F44298D52B000B47EB5 /* ExpenseTable.swift */,
 			);
 			path = Database;
 			sourceTree = "<group>";
@@ -92,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				448FF2A32325F40FE3FBC16A /* Pods_expense_aide.framework */,
+				1536DC9FAD15165C1245CE0C /* Pods_expense_aideTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -99,6 +178,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		14272F32298D2A4200B47EB5 /* expense-aideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14272F39298D2A4300B47EB5 /* Build configuration list for PBXNativeTarget "expense-aideTests" */;
+			buildPhases = (
+				5C03561A1003E3007696E4BF /* [CP] Check Pods Manifest.lock */,
+				14272F2F298D2A4200B47EB5 /* Sources */,
+				14272F30298D2A4200B47EB5 /* Frameworks */,
+				14272F31298D2A4200B47EB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14272F38298D2A4300B47EB5 /* PBXTargetDependency */,
+			);
+			name = "expense-aideTests";
+			productName = "expense-aideTests";
+			productReference = 14272F33298D2A4200B47EB5 /* expense-aideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		14778D6829895C2600465991 /* expense-aide */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14778D7D29895C2A00465991 /* Build configuration list for PBXNativeTarget "expense-aide" */;
@@ -128,6 +226,10 @@
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
+					14272F32298D2A4200B47EB5 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 14778D6829895C2600465991;
+					};
 					14778D6829895C2600465991 = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -147,11 +249,19 @@
 			projectRoot = "";
 			targets = (
 				14778D6829895C2600465991 /* expense-aide */,
+				14272F32298D2A4200B47EB5 /* expense-aideTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		14272F31298D2A4200B47EB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		14778D6729895C2600465991 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -163,6 +273,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5C03561A1003E3007696E4BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-expense-aideTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C2A62F76CB9745208F041570 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -205,20 +337,87 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		14272F2F298D2A4200B47EB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14272F36298D2A4300B47EB5 /* expense_aideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		14778D6529895C2600465991 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14778D7129895C2600465991 /* ViewController.swift in Sources */,
+				14272F45298D52B000B47EB5 /* ExpenseTable.swift in Sources */,
+				14272F42298D323F00B47EB5 /* ExpenseModel.swift in Sources */,
+				14778D7129895C2600465991 /* RootViewController.swift in Sources */,
 				14778D6D29895C2600465991 /* AppDelegate.swift in Sources */,
 				14778D6F29895C2600465991 /* SceneDelegate.swift in Sources */,
-				14C2265D2989F1DC00248EAC /* DBHelper.swift in Sources */,
+				14C2265D2989F1DC00248EAC /* DBManager.swift in Sources */,
+				14272F3F298D320C00B47EB5 /* RootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		14272F38298D2A4300B47EB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14778D6829895C2600465991 /* expense-aide */;
+			targetProxy = 14272F37298D2A4300B47EB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		14272F3A298D2A4300B47EB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45C7C11DB3F4D8237E09842D /* Pods-expense-aideTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JBR7HLAVUQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.igorps.expense-aideTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/expense-aide.app/expense-aide";
+			};
+			name = Debug;
+		};
+		14272F3B298D2A4300B47EB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B909795643619122B900B35D /* Pods-expense-aideTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JBR7HLAVUQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.igorps.expense-aideTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/expense-aide.app/expense-aide";
+			};
+			name = Release;
+		};
 		14778D7B29895C2A00465991 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -394,6 +593,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		14272F39298D2A4300B47EB5 /* Build configuration list for PBXNativeTarget "expense-aideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14272F3A298D2A4300B47EB5 /* Debug */,
+				14272F3B298D2A4300B47EB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		14778D6429895C2600465991 /* Build configuration list for PBXProject "expense-aide" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
