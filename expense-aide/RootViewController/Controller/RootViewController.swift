@@ -14,8 +14,9 @@ class RootViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .blue
-        db.expenseTable.add(entry: expense)
-        db.expenseTable.update(entry: expense)
+//        db.expenseTable.add(entry: expense)
+//        db.expenseTable.update(entry: expense)
+        db.expenseTable.getById(entry: expense)
     }
 
 
